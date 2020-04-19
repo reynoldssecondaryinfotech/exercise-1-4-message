@@ -6,7 +6,7 @@ The exercise template comes with a program template that includes the function a
 
 ```python
 def message_print():
-    message = input(Write a message:)
+    message = input("Write a message:")
     # Write your code here
     
 message_print()
