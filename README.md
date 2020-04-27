@@ -5,11 +5,12 @@ Write a program that asks the user to write a string. When the user has provided
 The exercise template comes with a program template that includes the function and its call.
 
 ```python
-def message_print():
+def main():
     message = input("Write a message:")
     # Write your code here
-    
-message_print()
+
+if __name__ == '__main__':
+    main()`
 ```
 
 Example output for when the user writes "Bye".
